@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "TCR Update : 0.9.3"
+date:   2017-09-16
+categories: all
+---
+Big release, with 13 total anime.
+
+This version didn't change any features, just added:
+Miss Kobayashi's Dragon Maid, 
+Space Patrol Luluco, 
+Saga of Tanya the Evil, 
+ReLife, 
+Kemono Friends, 
+Rokka-Braves of Six Flowers, 
+NEW GAME!,
+Gabriel DropOut,
+Wooser's,
+World End

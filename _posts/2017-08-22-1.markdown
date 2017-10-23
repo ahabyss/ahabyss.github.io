@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "TCR Update : 0.9.1"
+date:   2017-08-22
+categories: all
+---
+An important update
+
+Here I greatly improved loading time by not relying on twitch to load and build the chat window, instead developing the css and building 
+the window manually. This was also a good improvment because now the extension doesn't need access to any external websites, improving security.
+

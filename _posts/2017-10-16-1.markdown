@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "TCR Update : 0.9.4"
+date:   2017-09-16
+categories: all
+---
+RWBY + VLC Update
+
+Near the conclusion of the RWBY marathon I had plans to update the extension with RWBY episodes. But while watching I realized
+it was going to be troublesome to sync playback for the viewer because the marathon skips the intro in many episodes (and it's not exactly
+consistent across volumes). So it wouldn't be obvious at what point in the episode to start chat. This in addition to the
+shorter episiodes meant that comparitively more time would be spent setting up the chat.
+
+To remedy this I decided to add VLC support. VLC supports control over it's HTTP interface, which is what I would use.
+
+RWBY had a different format from the other anime marathons, so I needed to change the parsing script, in addition I needed
+to add support for alternate episodes. These changes meant that version 0.9.4 only had support for RWBY Vol 1, the previous
+anime hadn't been updated yet and were not available in this release.
+
+This was a testing release with all of RWBY Vol 1, with alternates 1-4.
+
+Some added features:
+Seek bar, chat mentions, support for :<name>: emojis, added the name highlight feature. 

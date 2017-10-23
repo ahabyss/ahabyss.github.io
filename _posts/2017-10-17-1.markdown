@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "TCR Update : 0.9.5"
+date:   2017-10-17
+categories: all
+---
+RWBY V1 alt 5, and 1st Marathon
+
+I wanted to fix the 1st Marathon shows quickly, so I added support for them, and also 
+got the final chatlog file from overrustle leading to chat from the 5th showing of RWBY Vol 1.

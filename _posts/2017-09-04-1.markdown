@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "TCR Update : 0.9.2"
+date:   2017-09-04
+categories: all
+---
+Addition of "Ojisan and Marshmellow" and "Akashic Records"
+
+This updated added the ability to input a custom delay, and I also two anime titles.
+
+Ojisan and Marshmellow because it is one of three anime without mid-episode breaks, I wanted to get the
+parser to work on both types. And Akashic Records because it is one of my favorites from the marathon.

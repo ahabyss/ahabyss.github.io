@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "TCR Update : 0.9.6"
+date:   2017-10-22
+categories: all
+---
+Major Update (with 3 more titles)
+
+This release is a significant rewrite of a lot of the extension and the parsing utility.
+
+I rewrote the extension popup window, changed parts of the options windows, and added dark mode. Added power rangers
+emotes. And added a smoother check for VLC.
+
+Up to this point I had three separate scripts (one for each marathon, and an analysis 
+tool). Each took a different format that was designed to facilitate solving the problem I had at the moment,
+but integrating these made getting a consistent result from the various input files overly complex. Now 
+the utility has a general and easily extensible way to input new shows, which should work well for future marathons.
+
+Added the RWBY marathon in its entierty.
+Added JOKER GAME, Yuri on Ice, and Anne Happy!

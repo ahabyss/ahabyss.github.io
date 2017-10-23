@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "TCR Update : 0.8.0"
+date:   "2017-08-15"
+categories: all
+---
+First Replay (Mob Psycho)
+
+I never got the chat bot method to work well because I couldn't directly pass username and color 
+information. This version did successfully connect to the ChatController and sendMessage(). To format a
+message this function pulls username and color information from an array in a tmiRoom object. It is possible to display a message
+with a desired color and username by editing this array between each call to sendMessage(), but the result is separate 
+messages sharing usernames/colors (I think because Ember posts messages in groups, and only querys the tmiRoom UserContainer
+once).
+
+Nevertheless it worked, was able to load the parsed json files, and play them back. I rewatched the 4 episodes of Mob Psycho 100 that I had missed.
+
+

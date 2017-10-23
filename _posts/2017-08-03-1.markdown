@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "TCR Update : 0.0.0"
+date:   "2017-08-03"
+categories: all
+---
+Before it had a name or any plans to be an extension. 
+
+The initial idea was to download and parse logs from overrustle, and then build some kind of video player 
+plugin or stand alone application using the parsed data. The first parsing analysis code was written in MATLAB.
+
+Early on I realized a browser extension would make it easiest to use so that's where I focused.
+
+I only spent a day before moving to python for parsing. MATLAB is great for executing quickly on non demanding projects, but
+with datafiles in the 100s of MB it is unweildy and slow.
+
+My initial instinct was to essentially make a twitch chat bot, that would sever the socket to the server, and send
+messages to chat by hooking some function and passing each chat message data. These messages would in theory be displayed 
+perfectly because twitch was doing the formatting (these formatting scripts are local).

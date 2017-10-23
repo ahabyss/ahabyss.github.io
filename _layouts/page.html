@@ -1,0 +1,44 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+  <!--  <h1 class="post-title">{{ page.title }}</h1>-->
+  </header>
+
+  {%if page.tagline%}
+  <div class="tagline">
+  <!--<span class="page-title">{{page.title}}</span>-->
+  
+  <span class="page-tagline">
+  <em>
+  
+  {% if page.tagemoji %}
+    <img class="bttvemoji" src={{page.tagimg}}>
+  {% else %}
+    <img class="ttvemote" src={{page.tagimg}}>
+  {% endif %}
+  
+  {% for item in page.tagline %}
+    {{item}}
+    
+    {% if page.tagemoji %}
+        <img class="bttvemoji" src={{page.tagimg}}>
+    {% else %}
+        <img class="ttvemote" src={{page.tagimg}}>  
+    {% endif %}
+    
+  {% endfor %}
+  </em>
+  </span>
+  <br>
+  </div>
+  {% endif %}
+
+    
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>

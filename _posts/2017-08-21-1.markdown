@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "TCR Update : 0.9.0"
+date:   2017-08-21
+categories: all
+---
+First Release. Core functionality complete.
+
+This was virtually a complete rewrite of the chat replay window. The previous version played in the extension popup bubble.
+Meaning if you clicked in that browser tab the chat would lose all progress. Another major change I wanted was to no longer
+rely on twitch, and instead do all processing built in for complete control. Fortunately reChat, 
+BTTV and <a href="https://chrome.google.com/webstore/detail/global-twitch-emotes/pgniedifoejifjkndekolimjeclnokkb?hl=en">globaltwitchemotes.com</a> are open source and helped me get a draft version up and running quickly.
+
+I wanted to add badges to make the chat feel more like twitch, so I added random badges, but I wanted a way to turn 
+this off. So I added the options page. And added the control panel to the app so you didn't need to play via console.
+
+I added a default 2 second smooth to all chat messages, so they will be evenly spaced.
+
+The emote api sites (twitchemotes.com) don't support the TwitchPresents emotes, so I added those.
+
+Also changed page load to use promises, so I don't need to call a timeout.
+
+The 12 episodes of Mob Pyscho were in this release.
+
