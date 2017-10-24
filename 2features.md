@@ -31,11 +31,11 @@ permalink: /features/
   <div class="manual-content">
  
   <ul>
-  <li>Better Twitch TV emotes</li>
+  <li>Better Twitch TV emotes<img class='featureImg' src='https://cdn.betterttv.net/emote/566c9f6365dbbdab32ec0532/1x'></li>
   <dd>This will turn off global and any specified channel emotes</dd>
-  <li>Timestamps</li>
+  <li>Timestamps<img class='featureImg' src='../assets/timestamps.png'></li>
   <dd>Same setting as Twitch, except these timestamps show minute:second</dd>
-  <li>Emojis</li>
+  <li>Emojis <div class='featureImg'><img class='bttvemoji' src='https://twemoji.maxcdn.com/2/72x72/1f6e1.png'> <img class='ttvemote' src='https://static-cdn.jtvnw.net/emoticons/v1/508661/1.0'> <img class='bttvemoji' src='https://twemoji.maxcdn.com/2/72x72/1f5e1.png'></div></li>
   <dd>TCR will automatcally convert :XX: type emojis with this setting</dd>
   <li>Badges</li>
   <dd>This option simply turns badges on. Overrustle only logs the users name and chat message, thus any badge data is 

@@ -16,7 +16,7 @@ tagimg: "https://static-cdn.jtvnw.net/emoticons/v1/114836/1.0"
  </div>
  <p>  
   <div class="manual-content">
-    TCR is fundamentally two projects intertwined. Without the episode archives that the TCR parsing tool creates the extension could not function.
+    TCR is fundamentally two projects. Without the episode archives created by the TCR parsing tool the extension could not function.
     A majority of message processing is performed at this stage and baked into the archives. This minimizes the processing that the javascript extension must perform, which is important 
     because it must process and output hundreds of chat messages a minute.
     
@@ -36,7 +36,7 @@ tagimg: "https://static-cdn.jtvnw.net/emoticons/v1/114836/1.0"
  <p>  
   <div class="manual-content">
     The episode chat analysis is also done using this utility, these graphs are important for 
-    visualizing each anime and episode, ensuring good synchronization. And the episode stats can also show interesting trends and information.
+    visualizing each anime and episode, ensuring good synchronization. In addition, the episode stats can also show interesting trends and information.
     <br>For example we can see that the meme of REE-ing at snack breaks took hold after only two episodes into the marathon.
     The first two episodes had light REE activity, but every episode afterward (for the entire marathon)
     a predictable spike is found at every snack break.
